@@ -472,15 +472,38 @@ nav {
     margin-top: 2rem;
     gap: 5rem;
 }
-.foto-kedua p {
+.rsv {
+    margin-top: 1rem;
+}
+.rsv a {
+    text-decoration: none;
+    color: blue;
+}
+.rsv a:hover {
+    text-decoration: underline;
+}
+.icon-share h4 {
+    margin-left: 15rem;
+    font-size: larger;
+    margin-top: -2rem;
+}
+.icon-share img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.foto-ketiga h2 {
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.foto-ketiga h4 {
     margin-left: 7rem;
     margin-top: 1rem;
 }
-.foto-kedua h2 {
-    text-align: center;
-    margin-top: 2rem;
+.foto-ketiga img {
+    margin-left: 7rem;
+    margin-top: 1rem;
 }
-
 
 /* AREA */
 .cardarea{
