@@ -136,13 +136,15 @@ nav {
 /* keterangan awal */
 .wadah-keterangan {
     background: white;
-    padding: 80px 20px;
+    padding: 80px 0;
     display: flex;
     justify-content: center;
 }
 
 .keterangan {
     max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -204,6 +206,112 @@ nav {
 }
 /* keterangan akhir */
 
+/* kamar awal */
+.wadahkamar {
+    background: white;
+    padding: 80px 0;
+}
+
+.kamar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.judulkamar {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.gariskamar {
+    background-color: #242885;
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto 40px;
+}
+
+.pilihkamar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.pilihankamar {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: 0;
+}
+
+.pilihankamar img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pilihankamar h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.info-kamar {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+.deskripsi-kamar {
+    font-size: 0.9rem;
+    color: #333;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.btn-kamar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.bokamar {
+    background-color: #242885;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.bokamar:hover {
+    background-color: #000000;
+}
+
+.dekamar {
+    border: 2px solid #242885;
+    text-decoration: none;
+    color: #242885;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.dekamar:hover {
+    background-color: #242885;
+    color: white;
+}
+/* kamar akhir */
+
 /* RESPONSIV */
 @media (max-width: 992px) {
 
@@ -263,7 +371,63 @@ nav {
 .tesfacilities {
     padding-top: 70px;
 }
-
+.awal {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('file:///D:/web%20edotel/edotel/Assets/images/tes.jpg') no-repeat center/cover;
+}
+.awal h5 {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    font-size: 14px;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 kolom */
+    gap: 40px;
+    max-width: 800px;
+    margin: auto;
+    margin-left: 17rem;
+    margin-top: 1rem;
+}
+.card {
+  background: #e6e6e6;
+  width: 320px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+}
+.card img {
+  width: 100%;
+  height: 18rem;
+  display: block;
+}
+.content {
+  padding: 20px;
+}
+.content h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.content p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  background: #d89b9b;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 2px;
+}
 
 /* AREA */
 .cardarea{
