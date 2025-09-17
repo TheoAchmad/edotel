@@ -403,19 +403,6 @@ nav {
 .tesfacilities {
     padding-top: 70px;
 }
-.awal {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url('https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2020/12/31/993ffc49-c536-4e19-9d38-7d02e887582c-1609376709708-2aa4ef91cef209190f35a5d2f7e2041e.jpg') no-repeat center/cover;
-}
-.awal h5 {
-    position: absolute;
-    left: 20px;
-    bottom: 15px;
-    font-size: 14px;
-    color: white;
-}
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 2 kolom */
