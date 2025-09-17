@@ -1,8 +1,6 @@
 /* HOME */
-/* Import Font dari Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-/* Reset dan Pengaturan Dasar */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +13,7 @@ body {
     min-height: 9999999vh;
 }
 
-/* --- Header & Navbar --- */
+/* --- NAVBAR AWAL --- */
 header {
     background-color: white;
     backdrop-filter: blur(5px);
@@ -36,7 +34,6 @@ nav {
     height: 70px;
 }
 
-/* Logo */
 .logo {
     display: flex;
     align-items: center;
@@ -54,7 +51,6 @@ nav {
     font-size: 1rem;
 }
 
-/* Link Navigasi */
 .nav-links {
     list-style: none;
     display: flex;
@@ -75,7 +71,6 @@ nav {
     color: #242885;
 }
 
-/* Efek Garis Bawah Saat di-hover */
 .nav-links li a::after {
     content: '';
     position: absolute;
@@ -91,7 +86,6 @@ nav {
     width: 100%;
 }
 
-/* Tombol dan Bahasa di Kanan */
 .nav-right {
     display: flex;
     align-items: center;
@@ -105,7 +99,7 @@ nav {
 }
 
 .btn-book {
-    background-color: #000000; /* Warna biru */
+    background-color: #000000;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -118,17 +112,18 @@ nav {
     background-color: #242885;
 }
 
-/* Ikon Hamburger (tersembunyi di desktop) */
+/* HAMBURGER */
 .hamburger {
     display: none;
     color: #000000;
     font-size: 1.5rem;
     cursor: pointer;
 }
+/* --- NAVBAR AKHIR --- */
 
 /* --- Hero Section --- */
 .hero-section {
-    height: 100vh; /* Tinggi penuh layar */
+    height: 100vh;
     background-image: url('../images/tes2.jpg');
     background-size: cover;
     background-position: center;
@@ -137,9 +132,9 @@ nav {
     justify-content: center;
 }
 
-/* --- Media Query untuk Responsivitas --- */
+/* RESPONSIV */
 @media (max-width: 992px) {
-    /* Sembunyikan navigasi utama dan tombol di kanan */
+
     .nav-links,
     .nav-right {
         display: none;
@@ -150,7 +145,7 @@ nav {
         display: block;
     }
 
-    /* Styling untuk menu mobile yang muncul */
+    /* NAVBAR HP */
     .nav-links.active {
         display: flex;
         flex-direction: column;
