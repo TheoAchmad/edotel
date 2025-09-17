@@ -1,0 +1,186 @@
+/* HOME */
+/* Import Font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Reset dan Pengaturan Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    min-height: 9999999vh;
+}
+
+/* --- Header & Navbar --- */
+header {
+    background-color: white;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    height: 70px;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Link Navigasi */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px; /* Jarak antar menu */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-bottom: 8px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #242885;
+}
+
+/* Efek Garis Bawah Saat di-hover */
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #242885;
+    bottom: 0;
+    left: 0;
+    transition: width 0.4s ease;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+/* Tombol dan Bahasa di Kanan */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-book {
+    background-color: #000000; /* Warna biru */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+    background-color: #242885;
+}
+
+/* Ikon Hamburger (tersembunyi di desktop) */
+.hamburger {
+    display: none;
+    color: #000000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+    height: 100vh; /* Tinggi penuh layar */
+    background-image: url('../images/tes2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Media Query untuk Responsivitas --- */
+@media (max-width: 992px) {
+    /* Sembunyikan navigasi utama dan tombol di kanan */
+    .nav-links,
+    .nav-right {
+        display: none;
+    }
+    
+    /* Tampilkan ikon hamburger */
+    .hamburger {
+        display: block;
+    }
+
+    /* Styling untuk menu mobile yang muncul */
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        background-color: rgba(255, 255, 255, 0.95);
+        position: fixed;
+        top: 70px; /* Di bawah navbar */
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 70px);
+    }
+
+    .nav-links.active li a {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* ROOM */
+
+
+
+/* FACILITIES */
+
+
+
+/* AREA */
+
+
+
+/* CONTACT */
