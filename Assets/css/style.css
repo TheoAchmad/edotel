@@ -172,15 +172,21 @@ nav {
 
 
 /* ROOM */
-
+.tesroom {
+    padding-top: 70px;
+}
 
 
 /* FACILITIES */
-
+.tesfacilities {
+    padding-top: 70px;
+}
 
 
 /* AREA */
-
+.tesarea {
+    padding-top: 70px;
+}
 
 
 /* CONTACT */
