@@ -410,7 +410,7 @@ nav {
     max-width: 800px;
     margin: auto;
     margin-left: 17rem;
-    margin-top: 1rem;
+    margin-top: -4rem;
 }
 .card {
   background: #e6e6e6;
@@ -440,13 +440,47 @@ nav {
 }
 .btn {
   display: inline-block;
-  background: #d89b9b;
-  color: #000;
+  background: #242885;
+  color: white;
   text-decoration: none;
   padding: 10px 20px;
   font-weight: bold;
   border-radius: 2px;
 }
+/* 1 */
+.teks1 h3 {
+   margin-left: 2rem;
+   margin-top: -2rem;
+}
+.foto1 img {
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.foto1 p {
+    margin-left: 7rem;
+    font-size: large;
+    margin-top: 2rem;
+}
+.foto1 h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: large;
+    font-weight: bold;
+}
+.foto-kedua img {
+    margin-left: 7rem;
+    margin-top: 2rem;
+    gap: 5rem;
+}
+.foto-kedua p {
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.foto-kedua h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 
 /* AREA */
 .cardarea{
