@@ -404,6 +404,10 @@ nav {
 .tesfacilities {
     padding-top: 70px;
 }
+.teks-awal p{
+   margin-left: 1rem;
+    margin-top: -3rem;
+}
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 2 kolom */
@@ -411,7 +415,7 @@ nav {
     max-width: 800px;
     margin: auto;
     margin-left: 17rem;
-    margin-top: -4rem;
+    margin-top: 1rem;
 }
 .card {
   background: #e6e6e6;
