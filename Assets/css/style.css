@@ -550,7 +550,7 @@ nav {
 .tesroom {
     padding-top: 70px;
 }
-.container {
+.container1 {
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 3 kolom */
       gap: 25px;
