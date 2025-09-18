@@ -10,7 +10,6 @@
 
 body {
     background-color: #f4f4f4;
-    min-height: 9999999vh;
 }
 
 /* --- NAVBAR AWAL --- */
@@ -124,7 +123,7 @@ nav {
 /* --- Hero Section Awal --- */
 .hero-section {
     height: 70vh;
-    background-image: url('../images/pexels-pixabay-260922\ \(1\).jpg');
+    background-image: url('../images/herosection.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -312,6 +311,171 @@ nav {
 }
 /* kamar akhir */
 
+/* fasilitas awal */
+.wadah-fasilitas {
+    padding: 80px 0;
+    background: white;
+}
+
+.fasilitas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.gambar-fasilitas {
+    display: grid;
+    grid-column: 1fr 1fr;
+    gap: 15px;
+}
+
+.gambar-fasilitas img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.text-fasilitas .subjudul {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-fasilitas h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text-fasilitas .deskripsi-fasilitas {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-fasilitas {
+    display: inline-block;
+    border: 2px solid #242885;
+    color: #242885;
+    padding: 10PX 20PX;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
+.btn-fasilitas:hover {
+    background-color: #242885;
+    color: white;
+}
+/* fasilitas akhir */
+
+/* maps awal */
+.wadah-maps {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.maps {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+/* maps akhir */
+
+/* kontak awal */
+.wadah-kontak {
+    background: white;
+    padding: 40px 0;
+}
+
+.kontak {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.kontak-logo img {
+    width: 90px;
+}
+
+.kontak-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kontak-info p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #000000;
+}
+
+.kontak-info i {
+    margin-right: 8px;
+    color: #242885;
+}
+
+.kontak2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kontak2 h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.kontak2-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.kontak2-icon a {
+    font-size: 1.5rem;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.kontak2-icon a:hover {
+    color: #242885;
+}
+
+.footer-bawah {
+    background-color: #242885;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-bawah p {
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0;
+}
+/* kontak akhir */
+
 /* RESPONSIV */
 @media (max-width: 992px) {
 
@@ -346,7 +510,7 @@ nav {
 
     .keterangan {
         grid-template-columns: 1fr;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .foto-keterangan {
@@ -358,6 +522,27 @@ nav {
         grid-template-columns: 1fr 1fr;
         width: 100%;
     }
+
+    .fasilitas {
+        grid-template-columns: 1fr;
+        /* text-align: center; */
+    }
+
+    .gambar-fasilitas {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+  .kontak {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .kontak2 {
+    align-items: center;
+  }
 }
 
 
@@ -416,6 +601,10 @@ nav {
 .tesfacilities {
     padding-top: 70px;
 }
+.teks-awal p{
+   margin-left: 1rem;
+    margin-top: -3rem;
+}
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 2 kolom */
@@ -423,7 +612,7 @@ nav {
     max-width: 800px;
     margin: auto;
     margin-left: 17rem;
-    margin-top: -4rem;
+    margin-top: 1rem;
 }
 .card {
   background: #e6e6e6;
@@ -507,15 +696,16 @@ nav {
 }
 .foto-ketiga h2 {
     margin-left: 7rem;
-    margin-top: 3rem;
-}
-.foto-ketiga h4 {
-    margin-left: 7rem;
     margin-top: 1rem;
 }
 .foto-ketiga img {
     margin-left: 7rem;
     margin-top: 1rem;
+}
+.foto-ketiga a {
+    margin-left: 1rem;
+    margin-bottom: 12px;
+    margin-top: -1rem;
 }
 
 /* AREA */
