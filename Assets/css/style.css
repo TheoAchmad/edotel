@@ -510,7 +510,7 @@ nav {
 
     .keterangan {
         grid-template-columns: 1fr;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .foto-keterangan {
@@ -525,7 +525,7 @@ nav {
 
     .fasilitas {
         grid-template-columns: 1fr;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .gambar-fasilitas {
