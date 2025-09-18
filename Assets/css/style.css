@@ -123,7 +123,7 @@ nav {
 /* --- Hero Section Awal --- */
 .hero-section {
     height: 70vh;
-    background-image: url('../images/herosection.jpg');
+    background-image: url('../images/pexels-pixabay-260922\ \(1\).jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -553,12 +553,9 @@ nav {
 .container {
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 3 kolom */
-      gap: 20px;
+      gap: 25px;
       max-width: 1100px;
       margin: auto;
-      width: 1000px;
-      height: 100px;
-      
       
     }
     .product {
@@ -568,8 +565,11 @@ nav {
       text-align: center;
       background: #fff;
       position: relative;
+<<<<<<< HEAD
       margin-left: -5rem;
       margin-right: 4rem; 
+=======
+>>>>>>> 80a6145dc9c64d8478f048a0212d1766ce81c828
     }
     .product img {
       width: 100%;
@@ -586,13 +586,6 @@ nav {
       font-size: 14px;
       color: #010101;
       margin: 5px 0;
-    }
-
-    .judul  h2 {
-        margin-left: 2rem;
-    }
-    .makna h2 {
-        margin-left: 2rem;
     }
 
 
@@ -709,35 +702,8 @@ nav {
 }
 
 /* AREA */
-.cardarea{
+.card0{
     display: flex;
-}
-.card{
-    width: 55vh;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    font-family: Arial, sans-serif;
-    margin: 20px auto;
-    padding-bottom: 20px;
-}
-.card-img-top{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.card-body{
-    text-align: center;
-}
-.card-title{
-   font-weight: bold;
-    margin-top: 15px;
-}
-.card-text{
-    font-size:1rem;
-    color:#333;
-    padding: 20px;
 }
 .destinasi{
     background: #eee;
@@ -749,6 +715,54 @@ nav {
     font-weight: bold;
     margin-bottom: 30px;
 }
+
+.card1{
+    width: 55vh;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-title{
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card-text{
+    font-size:1rem;
+    color:#333;
+    padding: 20px;
+} 
+.tombolbiru{
+    text-align: center;
+}
+.keterangan-button {
+    display: inline-block;
+    background-color: #242885;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: backround-color 0.3s ease;
+}
+
+.keterangan-button:hover {
+    background-color: #000000;
+}
+
+
 
 /* .ROOM1 */
 .room1 {
