@@ -595,7 +595,7 @@ nav {
    margin-left: 1rem;
     margin-top: -3rem;
 }
-.container {
+.p-kotak {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 2 kolom */
     gap: 40px;
@@ -603,13 +603,14 @@ nav {
     margin: auto;
     margin-left: 17rem;
     margin-top: 1rem;
+    margin-bottom: 25px;
 }
 .card {
   background: #e6e6e6;
   width: 320px;
   overflow: hidden;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 2px rgba(0,0,0,0.1);
   position: relative;
 }
 .card img {
@@ -691,6 +692,9 @@ nav {
 .foto-ketiga img {
     margin-left: 7rem;
     margin-top: 1rem;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+
 }
 .foto-ketiga a {
     margin-left: 1rem;
