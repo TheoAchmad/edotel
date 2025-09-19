@@ -601,6 +601,9 @@ nav {
 .teks-awal p{
    margin-left: 1rem;
     margin-top: -3rem;
+     font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
 }
 .p-kotak {
     display: grid;
@@ -608,9 +611,10 @@ nav {
     gap: 40px;
     max-width: 800px;
     margin: auto;
-    margin-left: 17rem;
+    margin-left: 7rem;
     margin-top: 1rem;
     margin-bottom: 25px;
+    text-align: center;
 }
 .card {
   background: #e6e6e6;
@@ -619,6 +623,7 @@ nav {
   text-align: center;
   box-shadow: 0 4px 2px rgba(0,0,0,0.1);
   position: relative;
+  border-radius: 1rem;
 }
 .card img {
   width: 100%;
@@ -647,33 +652,42 @@ nav {
   font-weight: bold;
   border-radius: 2px;
 }
+.btn:hover {
+    background-color: #000000;
+}
 /* 1 */
 .teks1 h3 {
    margin-left: 2rem;
    margin-top: -2rem;
+   font-size:x-large;
 }
 .foto1 img {
     margin-left: 7rem;
     margin-top: 2rem;
 }
 .foto1 p {
-    margin-left: 7rem;
+    margin-left: 2rem;
     font-size: large;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
 }
 .foto1 h2 {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: large;
     font-weight: bold;
 }
 .foto-kedua img {
-    margin-left: 7rem;
-    margin-top: 2rem;
-    gap: 5rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    gap: 8rem;
 }
 .rsv {
     margin-top: 1rem;
+    margin-bottom: 10px;
 }
 .rsv a {
     text-decoration: none;
@@ -692,22 +706,29 @@ nav {
     margin: 0 10px;
     cursor: pointer;
 }
-.foto-ketiga h2 {
-    margin-left: 7rem;
-    margin-top: 1rem;
-}
-.foto-ketiga img {
-    margin-left: 7rem;
-    margin-top: 1rem;
-    transform: translateY(-5px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-
-}
-.foto-ketiga a {
-    margin-left: 1rem;
-    margin-bottom: 12px;
-    margin-top: -1rem;
-}
+.section-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      margin-left: 4rem;
+    }
+    .facility {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .facility img {
+      width: 40%;
+      border-radius: 5px;
+      margin-left: 4rem;
+      margin-bottom: 10px;
+    }
+    .facility-text {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    }
 
 /* AREA */
 .card0{
