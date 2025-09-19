@@ -543,6 +543,13 @@ nav {
   .kontak2 {
     align-items: center;
   }
+
+  .contact {
+        flex-direction: column;
+    }
+    .form-grub {
+        flex-direction: column;
+    }
 }
 
 
@@ -774,3 +781,84 @@ nav {
 .room2 {
     padding-top: 70px;
 }
+
+
+/* contact awal */
+.wadah-contact {
+    padding: 60px 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contact {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.contact-info h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.form-grub {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.from-grub input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #333;
+    font-size: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.btn-submit {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: backround-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #000;
+}
+/* contact akhir */
